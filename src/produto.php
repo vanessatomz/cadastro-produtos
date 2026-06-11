@@ -7,7 +7,7 @@
         public function __construct($nome, $preco, $qtd){
             $this->nome = $nome;
             $this->preco = $preco;
-            $this->peso = $peso;
+            $this->quantidade = $qtd;
         }
 
         public function getNome():string{
